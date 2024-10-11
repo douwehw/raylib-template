@@ -2,7 +2,7 @@
 
 You can use this template to easily develop games in C or C++ using Raylib.
 
-Add your header files to `/src/headers` and add your C/C++ files to `/src` <br> You can add your assets (images, videos, models.. ect) to the `assets` folder.
+Add your header files to `/include` and add your C/C++ files to `/src` <br> You can add your assets (images, videos, models.. ect) to the `assets` folder.
 
 # How to use
 

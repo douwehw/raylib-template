@@ -1,1 +1,0 @@
-D:\Development\Projects\Raylib\firsts\build\libs\raylib\raylib\external\glfw\src\glfw.dir\Debug\glfw.lib

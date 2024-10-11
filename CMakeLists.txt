@@ -20,10 +20,10 @@ else()
 endif()
 
 # Collect all source and header files recursively from the src and src/headers directories
-file(GLOB_RECURSE SOURCES "src/*.cpp" "src/headers/*.h")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "include/*.h")
 
 # Add headers directory to the include path
-include_directories(${CMAKE_SOURCE_DIR}/src/headers)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Create an executable with the collected source files
 add_executable(${PROJECT_NAME} ${SOURCES})
